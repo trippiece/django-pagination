@@ -1,3 +1,14 @@
+========================
+Linaro Django Pagination
+========================
+
+.. image:: https://travis-ci.org/zyga/django-pagination.svg?branch=master
+    :target: https://travis-ci.org/zyga/django-pagination
+
+.. image:: https://coveralls.io/repos/zyga/django-pagination/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/zyga/django-pagination?branch=master
+
+
 About the fork
 --------------
 
@@ -35,3 +46,8 @@ How to use linaro-django-pagination
 
 See our official documentation for more details.
 http://packages.python.org/linaro-django-pagination/
+
+
+.. image:: https://badges.gitter.im/zyga/django-pagination.svg
+   :alt: Join the chat at https://gitter.im/zyga/django-pagination
+   :target: https://gitter.im/zyga/django-pagination?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
