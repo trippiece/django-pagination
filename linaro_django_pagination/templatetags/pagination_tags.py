@@ -328,6 +328,7 @@ def paginate(context, window=DEFAULT_WINDOW, margin=DEFAULT_MARGIN):
             'records': records,
         }
         if 'request' in context:
+            new_context['path'] = context['request'].path
             getvars = context['request'].GET.copy()
             if 'page%s' % page_suffix in getvars:
                 del getvars['page%s' % page_suffix]
